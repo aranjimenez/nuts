@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --green: #9EE493;
+    --white: #DAF7DC;
+    --Turq: #ABC8C0;
+    --Dgreen: #073B3A;
+    --Dblue: #212738;
+    --Ashgrey: #B8B8AA;
+
+    --h1-fontsize: 160px;
+    --h2-fontsize: 100px;
+    --h3-fontsize: 32px;
+    --h4-fontsize: 24px;
+    --p-fontsize: 16px;
+
+    background-color: #212738;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    padding-left: 0%;
+    border: solid var(--Dblue);
+    border-radius: 90px;
+    background-color:var(--Dblue);
+    display: -moz-box;
+    gap: 100px;
+    align-items: center;
+    clip: auto;
+    overflow:hidden;
+    width: 100%;
+    background-color: none;
+    position: sticky;
+    top: 0;
+    scroll-behavior: smooth;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    justify-content: center;
+}
+
+h1{
+    color: var(--green);
+    font-size: var(--h1-fontsize);
+    font-family: "Inter";
+    margin: 0;
+    text-shadow: #073B3A;
+
+}
+
+h2{
+    color: var(--Turq);
+    font-size: var(--h2-fontsize);
+    font-family: "Poppins";
+    margin: 0;
+}
+
+h3{
+    color: var(--Ashgrey);
+    font-size: var(--h3-fontsize);
+    font-family: "Poppins";
+    margin: 0;
+}
+
+h4{
+    color: var(--Turq);
+    font-size: var(--h4-fontsize);
+    font-family: "Poppins";
+    margin: 0;
+}
+
+p{
+    color: var(--Ashgrey);
+    font-size: var(--p-fontsize);
+    font-family: "Poppins";
+    margin: 0;
+}
+
+label{
+    color: var(--Ashgrey);
+    font-size: var(--p-fontsize);
+    font-family: "Poppins";
+}
+
+ul{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+a{
+    font-size: var(--h4-fontsize);
+    color: var(--Ashgrey);
+    font-family: "Poppins";
+}
+
+form{
+    display: grid;
+}
+
+li{
+    align-items: center;
+    font-size: var(--p-fontsize);
+    color: var(--Ashgrey);
+    font-family: "Poppins";
+}
+
+#home {
+    display: flex;
+    justify-content: left;
+    gap: 40px;
+}
+
+.search {
+    align-items: center;
+    position: relative;
+    padding: 5px;
+
+}
+
+.search input {
+    width: 0px;
+    height: 44px;
+    padding: 0px 20px;
+    font-size: var(--p-fontsize);
+    color: var(--Dgreen);
+    outline: none;
+    border: 1px solid var(--Ashgrey);
+    border-radius: 90px;
+    transition: all 0.6s ease ;
+}
+
+.btn {
+    position:absolute ;
+    top: 0px;
+    right: 0px;
+    width: 55px;
+    background: var(--Ashgrey);
+    text-align: center;
+    height: 55px;
+    line-height: 55px;
+    color: black;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.search:hover input {
+    width: 240px;
+
+}
+
+.search input:focus {
+    width: 240px;
+}
+
+button{
+    background-color:var(--Dgreen);
+    font-size: var(--p-fontsize);
+    color: var(--Ashgrey);
+    font-family: "Poppins";
+    border-radius: 90px;
+}
+
+#education {
+    display: flex;
+}
+
+#Aero {
+    font-size: 80px;
+    color: var(--Turq);
+    font-family: "Poppins";
+}
+
+
+
+#CMB {
+    gap: 100px;
+    display: block;
+}
+
+#contactme {
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    flex-direction: column;
+  
+}
+
+input {
+
+    width: 600px;
+}
+
+.ph {
+    display: flex;
+    gap: 24px;
+    margin: 0px 40px;
+}
+
+.ph img {
+    max-width: 20%;
+}
+
+#hobbys {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    box-shadow: inset;
+}
+
+#vertical-imgs {
+    display: flex;
+    flex-direction: column;
+    max-width: 20%;
+}
+
+#vertical-imgs img {
+    max-width: fit-content;
+}
+
+footer {
+    padding-top: 40px;
+    background-color: #2d354b;
+    margin-top: 60px;
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 70px;
+}
+
+#photo-footer {
+    border-radius: 150px;
+    flex-direction: row;
+}
+
+#contentcm {
+display: flex;
+flex-direction: column;
+}
+
+#contactinfo {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+#infooter {
+    display: flex;
+    gap: 30px;
+}
